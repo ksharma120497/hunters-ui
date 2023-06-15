@@ -3,8 +3,8 @@ import './style';
 import './style.css';
 import Stack from '@mui/material/Stack';
 import HuntersButton from '../common-components/HuntersButton';
-import Room from './room.jpeg';
-import Roomates from './room1.jpeg';
+import Room from '../../assets/room.jpeg';
+import Roomates from '../../assets/room1.jpeg';
 import HuntersSearchBar from '../common-components/HuntersSearchBar';
 
 const HomeScreen = () => {

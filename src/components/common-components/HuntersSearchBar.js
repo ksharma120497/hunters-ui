@@ -1,6 +1,7 @@
 import { Container, InputAdornment, TextField } from '@mui/material';
 import React, { useState } from 'react';
 import SearchIcon from '@mui/icons-material/Search';
+import '../home/style.css';
 
 export default function SearchBar() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -10,14 +11,14 @@ export default function SearchBar() {
   };
 
   return (
-    <Container maxWidth="md" sx={{}}>
+    <Container maxWidth="md">
       <TextField
         id="search"
         type="search"
         label="Search"
         value={searchTerm}
         onChange={handleChange}
-        sx={{
+        style={{
           width: 600,
           background: '#8E83A7',
           backgroundImage: 'linear-gradient(to right, #8E83A7 , #675D71)',

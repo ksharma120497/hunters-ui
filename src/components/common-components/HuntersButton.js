@@ -1,11 +1,12 @@
 import React from 'react';
 import Button from '@mui/material/Button';
+import '../home/style.css';
 
 const HuntersButton = ({ name = 'ABC', width = 'auto' }) => {
   return (
     <Button
       variant="contained"
-      sx={{
+      style={{
         margin: '50px 60px',
         padding: '10px 15px',
         background: '#000000',
