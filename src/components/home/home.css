@@ -1,0 +1,33 @@
+.homescreen {
+  display: flex;
+  justify-content: space-evenly;
+}
+.homescreen-header {
+  font-weight: bolder;
+  display: block;
+  margin-top: 70px;
+  margin-left: 30px;
+  color: whitesmoke;
+}
+
+.homescreen-text {
+  display: block;
+  margin-top: 20px;
+  margin-left: 90px;
+  color: whitesmoke;
+  width: 500px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.room-img {
+  display: block;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 400px;
+  height: 300px;
+}
+
+body {
+  background-color: #493d60;
+}

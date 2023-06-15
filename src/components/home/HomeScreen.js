@@ -6,6 +6,7 @@ import HuntersButton from '../common-components/HuntersButton';
 import Room from '../../assets/room.jpeg';
 import Roomates from '../../assets/room1.jpeg';
 import HuntersSearchBar from '../common-components/HuntersSearchBar';
+import { Link } from 'react-router-dom';
 
 const HomeScreen = () => {
   return (
@@ -25,7 +26,7 @@ const HomeScreen = () => {
         </p>
         <HuntersSearchBar />
         <Stack direction="row">
-          <HuntersButton name={'Search Housing'} width="200px" />
+         <Link to={'/newscreen'}><HuntersButton name={'Search Housing'} width="200px" /> </Link>
           <HuntersButton name={'Post Housing'} width="200px" />
         </Stack>
       </div>
