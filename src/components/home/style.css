@@ -1,3 +1,7 @@
+.homescreen {
+  display: flex;
+  justify-content: space-evenly;
+}
 .homescreen-header {
   font-weight: bolder;
   display: block;
@@ -16,6 +20,14 @@
   font-weight: 400;
 }
 
+.room-img {
+  display: block;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 400px;
+  height: 300px;
+}
+
 body {
-  background-color: #150733;
+  background-color: #493d60;
 }
