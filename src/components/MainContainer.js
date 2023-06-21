@@ -1,11 +1,12 @@
 import React from "react";
 import HomeScreen from './home/HomeScreen';
+import SearchHousingScreen from "./search-housing-screen/SearchHousingScreen";
 
 const MainContainer = () => {
 
     return (
     <div>
-        <HomeScreen />
+        <SearchHousingScreen/>
     </div>
     )
 
