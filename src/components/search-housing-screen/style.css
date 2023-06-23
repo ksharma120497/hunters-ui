@@ -1,40 +1,39 @@
 .search-housing-slider-text {
-    font-weight: bolder;
-    display: block;
-    margin-top: 70px;
-    margin-left: 30px;
-    color: whitesmoke;
-  }
+  font-weight: bolder;
+  display: block;
+  margin-top: 30px;
+  margin-left: 30px;
+  color: whitesmoke;
+}
 
-  .search-housing-checkbox-text {
-    font-weight: bolder;
-    display: block;
-    margin-top: 70px;
-    margin-left: 30px;
-    color: whitesmoke;
-  }
+/* .search-housing-checkbox-text {
+  font-weight: bolder;
+  display: block;
+  margin-top: 30px;
+  margin-left: 30px;
+  color: whitesmoke;
+} */
 
-  .search-housing-screen {
-    display: flex;
-    justify-content: space-around;
-  }
+.search-housing-screen {
+  display: flex;
+  justify-content: space-around;
+}
 
-  .search-housing-filters {
-    width: 20%;
-    margin: 0 60px;
-    text-align: left;
-  }
+.search-housing-filters {
+  width: 20%;
+  margin: 0 60px;
+  text-align: left;
+}
 
-  .search-housing-divider {
-    width: fit-content;
-  }
+.search-housing-divider {
+  width: fit-content;
+}
 
-  .search-housing-results {
-    width: 78%;
-    text-align: center;
-  }
-  
-  body {
-    background-color: #150733;
-  }
-  
+.search-housing-results {
+  width: 78%;
+  text-align: center;
+}
+
+body {
+  background-color: #150733;
+}

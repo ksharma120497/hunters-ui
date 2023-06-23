@@ -9,7 +9,7 @@ import HuntersSearchBar from '../common-components/HuntersSearchBar';
 
 const HomeScreen = () => {
   return (
-    <div className="homescreen">
+    <div className="homescreen background">
       <div className="homescreen-content">
         <h1 className="homescreen-header">
           Student Housing Made Social and Simple
